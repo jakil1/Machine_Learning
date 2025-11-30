@@ -1,0 +1,11 @@
+path: F:/cattle_train/YOLO_Dataset_Formatted_WithTest
+train: images/train
+val: images/val
+test: images/test
+
+# ⚠️ 类别数量改为 3
+nc: 3
+
+# ⚠️ 这里非常关键！顺序必须和您标注时的 classes.txt 保持一致
+# 假设您标注时的顺序是 body, head, leg
+names: ['body', 'head', 'leg']

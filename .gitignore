@@ -1,0 +1,17 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# PyCharm 配置
+.idea/
+
+# 训练日志和数据 (非常重要！)
+wandb/
+runs/
+*.log
+*.txt
+!requirements.txt
+
+# 调试文件
+log.txt
+LeNet/log.txt
